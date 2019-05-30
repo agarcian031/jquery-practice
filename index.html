@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>jQuery Fundamentals</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <body>
+        <div id="wrapper">
+          <div id="options">
+            <h1 id="title">Super Cool Service</h1>
+            <h2 id="price">$10.00 /mo</h2>
+            <p>Choose a plan</p>
+            <select id="plan">
+              <option value="monthly">Monthly</option>
+              <option value="quarterly">Quarterly</option>
+              <option value="yearly">Yearly</option>
+            </select>
+            <button id="add">Add To Cart</button>
+            <button id="display_cart">Hide Cart</button>
+          </div>
+          <div id="cart">
+            <h1>Cart</h1>
+            <hr/>
+            <button id="empty">Clear Cart</button>
+            <ul id="in_cart">
+            </ul>
+            <div id="total">$0</div>
+            <div id="complete"></div>
+            <button id="purchase">Purchase</button>
+          </div>
+        </div>
+
+
+
+
+  <!-- JQuery needs to be loaded first before the JS file -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="app.js"></script>
+
+</body>
+</html>

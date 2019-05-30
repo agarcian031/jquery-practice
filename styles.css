@@ -1,0 +1,20 @@
+#wrapper {
+  width: 100%;
+  overflow: hidden
+}
+
+#options {
+  width: 50%;
+  float: left;
+  border-right: solid 1px black;
+}
+
+#cart {
+  margin-left: 51%;
+}
+
+/* Don't want to display the button on start up */
+#empty {
+  display: none; 
+
+}
